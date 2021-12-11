@@ -1,0 +1,9 @@
+baseURL: https://maakun12.github.io
+languageCode: ja
+title: Home
+theme: personal-web
+params:
+  author: maakun12
+  intro:
+    main: I'm maakun12
+    sub: I'm a Web Developer
