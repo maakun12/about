@@ -1,9 +1,22 @@
 baseURL: https://maakun12.github.io
 languageCode: ja
-title: Home
 theme: personal-web
+title: maakun12
+copyright: © maakun12
 params:
   author: maakun12
   intro:
     main: I'm maakun12
     sub: I'm a Web Developer
+  sidebar:
+    logo: images/logo.png
+  social:
+    github: https://github.com/maakun12
+  breadcrumb: true
+  main:
+    latestPublishHeader: 最新投稿
+menus:
+  main:
+    - name: Post
+      url: /post/
+      identifier: blog
