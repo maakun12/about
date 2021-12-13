@@ -1,4 +1,2 @@
-# about
+# maakun12.github.io
 
-## theme
-https://github.com/bjacquemet/personal-web
