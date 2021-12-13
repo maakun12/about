@@ -1,22 +1,20 @@
 baseURL: https://maakun12.github.io
 languageCode: ja
-theme: personal-web
+theme: hugo-coder
 title: maakun12
 copyright: © maakun12
 params:
   author: maakun12
-  intro:
-    main: I'm maakun12
-    sub: I'm a Web Developer
-  sidebar:
-    logo: images/logo.png
+  info: I'm a Web Developer
+  avatarURL: images/logo.png
+  colorScheme: "dark"
   social:
-    github: https://github.com/maakun12
-  breadcrumb: true
-  main:
-    latestPublishHeader: 最新投稿
+    - name: Github
+      icon: fa fa-2x fa-github
+      weight: 1
+      url: https://github.com/maakun12/
+  hideColorSchemeToggle: false
 menus:
   main:
-    - name: Post
-      url: /post/
-      identifier: blog
+    - name: Blog
+      url: /posts/
