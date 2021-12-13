@@ -3,6 +3,7 @@ languageCode: ja
 theme: hugo-coder
 title: maakun12
 copyright: © maakun12
+publishDir: public
 params:
   author: maakun12
   info: I'm a Web Developer
