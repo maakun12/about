@@ -11,6 +11,7 @@ info = "I'm a Web Developer"
 avatarURL = "images/logo.png"
 colorScheme = "dark"
 hideColorSchemeToggle = false
+font = "Noto Sans JP"
 
   [[params.social]]
   name = "Github"
