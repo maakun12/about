@@ -1,6 +1,7 @@
 ---
 title: gosecについて調べた事メモ
 date: "2022-01-03T18:24:05+09:00"
+description: gosecについて簡単にメモ
 publishDate: "2022-01-03T18:24:05+09:00"
 ---
 
