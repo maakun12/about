@@ -4,4 +4,27 @@ Inspects source code for security problems by scanning the Go AST. Go AST を解
 AST とは Wiki によると
 抽象構文木（英: abstract syntax tree、AST）は、通常の構文木（具象構文木あるいは解析木とも言う）から、言語の意味に関係ない情報を取り除き、意味に関係ある情報のみを取り出した（抽象した）木構造の木である。 参照: https://ja.wikipedia.org/wiki/%E6%8A%BD%E8%B1%A1%E6%A7%8B%E6%96%87%E6%9C%A8 少し難しい表現に感じますが、要するにプログラムからコメントや意味を持たない空白など不要ものを取り除き、プログラムの文法構造をツリー構造で表現したものみたいです。
 どんなパターンを検出してくれるのか こちらに検出パターンの一覧が記載されています。
-インストール go install github.com/securego/gosec/v2/cmd/gosec@latest 実行方法 gosec ./... 検査対象を限定する gosec -include=G101 ./... 検査対象を除外する gosec -exclude=G101 .</description></item><item><title>Github PagesでHugoサイトを公開</title><link>https://maakun12.github.io/posts/hugo-deploy/</link><pubDate>Sun, 12 Dec 2021 18:24:05 +0900</pubDate><guid>https://maakun12.github.io/posts/hugo-deploy/</guid><description>Hugoで作成したサイトをGithub Pagesで公開した時のメモです</description></item><item><title>初投稿</title><link>https://maakun12.github.io/posts/first-post/</link><pubDate>Sun, 12 Dec 2021 18:24:05 +0900</pubDate><guid>https://maakun12.github.io/posts/first-post/</guid><description>Hugoを使って自分用のサイトを構築しました。</description></item></channel></rss>
+インストール go install github.com/securego/gosec/v2/cmd/gosec@latest 実行方法 gosec ./... 検査対象を限定する gosec -include=G101 ./... 検査対象を除外する gosec -exclude=G101 .</description></item><item><title>認定スクラムマスター(CSM)に合格した</title><link>https://maakun12.github.io/posts/csm/</link><pubDate>Mon, 03 Jan 2022 18:24:05 +0900</pubDate><guid>https://maakun12.github.io/posts/csm/</guid><description>認定スクラムマスター(CSM)に合格した スクラムについてより深く知識を得たいと思い、そのための手段としてスクラムマスターの資格を取る事にしたので研修の流れや試験についての振り返りを書いていきます。
+スクラムマスターの認定団体 スクラムマスターについて調べた所、スクラムマスターには 3 つの認定団体がありました。
+CSM LSM PSM これの中でどれを取ればいいのかって話ですが、以前お世話になっていたスクラムマスターの Y さんに聞いた所 CSM が良いとの事だったので自分は CSM で取得する形にしました。
+スクラムマスターの取得方法 CSM でスクラムマスターの資格を取得するにあたって、試験を受ける前にまずは認定研修の受講が必要です。
+これが意外と高額でした。
+Y さんにオススメして頂いたアギレルゴコンサルティングで研修を受けましたが、価格が22 万円でした。
+中々のお値段です。。
+そして、値段もさることながら自分が受けた研修は朝の 8:30〜11:30 × 4 日間の研修というタイムスケジュールになっていて、研修後に仕事があったりと中々ハードスケジュールでした。
+ちなみに 1 時間だったか 1.5 時間の遅刻や欠席をするとその回を別の研修回で受け直さないといけないそうなので要注意です。
+(コロナ禍という事もあり zoom での実施でしたが、オフラインだったら確実に無理でした。)
+研修の流れ まず初日にスクラムの概要について講師の方が説明してくれて、スクラムの概要を教えてくれたり研修を通して行う課題をこなしていくチームの割り振りが行われました。
+ここで割り振られたチームメンバーが研修最終日まで一緒に課題をこなしていくメンバーとなります。
+自分が一緒になった方達はとても気さくな方達で課題もこなしやすくやりやすかったです。
+4 日間通してのざっくりの流れは、
+スクラムの各ロールやイベントについての説明
+↓
+理解度を深めるための実践課題にチームで取り組む
+↓
+各チームの課題のアウトプットを発表&amp;amp;評価
+↓
+質疑応答
+という流れでした。
+また、最終日は理解度を測るラフな形式のテストが実施されました。
+研修後から認定試験まで 研修が終わって 10 分後くらいに登録したメールアドレス宛に Scrum Alliance から認定試験を受けるためのリンクが送られてきました。</description></item><item><title>Github PagesでHugoサイトを公開</title><link>https://maakun12.github.io/posts/hugo-deploy/</link><pubDate>Sun, 12 Dec 2021 18:24:05 +0900</pubDate><guid>https://maakun12.github.io/posts/hugo-deploy/</guid><description>Hugoで作成したサイトをGithub Pagesで公開した時のメモです</description></item><item><title>初投稿</title><link>https://maakun12.github.io/posts/first-post/</link><pubDate>Sun, 12 Dec 2021 18:24:05 +0900</pubDate><guid>https://maakun12.github.io/posts/first-post/</guid><description>Hugoを使って自分用のサイトを構築しました。</description></item></channel></rss>
